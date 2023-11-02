@@ -1,0 +1,53 @@
+{
+    "pools":
+        [{
+            "name": "US-VIPOR",
+            "url": "stratum+tcp://us.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 0
+        },
+        {
+            "name": "USSE-VIPOR",
+            "url": "stratum+tcp://usse.vipor.net:5040",
+            "timeout": 180,
+            "disabled": 0
+        },
+        {
+            "name": "NA-LUCKPOOL",
+            "url": "stratum+tcp://na.luckpool.net:3960",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "AIH-LOW",
+            "url": "stratum+tcp://verus.aninterestinghole.xyz:9998",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "WW-ZERGPOOL",
+            "url": "stratum+tcp://verushash.mine.zergpool.com:3300",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "VPOOL-LOW",
+            "url": "stratum+tcp://pool.verus.io:9998",
+            "timeout": 180,
+            "disabled": 1
+        },
+        {
+            "name": "US-CLOUDIKO",
+            "url": "stratum+tcp://us.cloudiko.io:9999",
+            "timeout": 180,
+            "disabled": 1
+        }],
+
+    "user": "RUCkh4PbGedGLcBsgNsXhoDwnmp5ceTwyd.Donations",
+    "algo": "verus",
+    "threads": 8,
+    "cpu-priority": 1,
+    "retry-pause": 10,
+    "api-allow": "192.168.0.0/16",
+	"api-bind": "0.0.0.0:4068"
+}
