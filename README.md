@@ -29,7 +29,7 @@ chmod +x ccminer start.sh
 
 1. Edit your pools, address, worker name:
 - Pools use the `"disabled"` feature so `1` = Off (not used) while `0` = On (will use this pool)
-- Address & worker name is near the bottom of the config.json in format `"address here"."worker name here"`
+- Address & worker name is near the bottom of the config.json in format `address here.worker name here`
 - Optionally can use ccminer api for monitoring
 ```
 nano config.json
@@ -47,5 +47,5 @@ CTRL + c
 2. Disable battery manager, battery optimization for Termux app.
 3. If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
 4. Use a pool with low latency to your location/internet.
-5. Give the miner/stratum to stabilize your hashrate(~30m-1h).
+5. Give the miner/stratum time to stabilize hashrate(~30m-1h).
 
