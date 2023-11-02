@@ -9,6 +9,7 @@ This is a WIP repo for pre-compiled ccminer binaries with latest termux(v0.118.0
 https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
 ```
 2. Get Termux ready:
+- Type `y` then enter key in any prompts!
 ```
 pkg update -y && pkg upgrade -y
 pkg install wget nano -y
