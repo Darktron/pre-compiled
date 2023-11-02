@@ -12,7 +12,7 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 - Type `y` then enter key in any prompts!
 ```
 pkg update -y && pkg upgrade -y
-pkg install wget nano -y
+pkg install libjansson wget nano -y
 ```
 3. Download ccminer, config, start:
 ```
