@@ -43,9 +43,9 @@ nano config.json
 CTRL + c
 ```
 # Tips & Tricks:
-1. If Termux can't complete update & upgrade please clear app cache and data.
-2. Disable battery manager, battery optimization for Termux app.
-3. If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
-4. Use a pool with low latency to your location/internet.
-5. Give the miner/stratum time to stabilize hashrate(~30m-1h).
+- If Termux can't complete update & upgrade please clear app cache and data.
+- Disable battery manager, battery optimization for Termux app.
+- If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
+- Use a pool with low latency to your location/internet.
+- Give the miner/stratum time to stabilize hashrate(~30m-1h).
 
