@@ -1,7 +1,9 @@
 # Pre-compiled CCMiner for Termux:
 This is a WIP repo for pre-compiled ccminer binaries with latest termux(v0.118.0) and latest clang(v17.0.4).
 
-**`This is for ARM Cortex-A73 & Cortex-A53`**
+# **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
+
+# **`This is for ARM Cortex-A73 & Cortex-A53`**
 
 # Installation:
 1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
@@ -40,3 +42,10 @@ nano config.json
 ```
 CTRL + c
 ```
+# Tips & Tricks:
+1. If Termux can't complete update & upgrade please clear app cache and data.
+2. Disable battery manager, battery optimization for Termux app.
+3. If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
+4. Use a pool with low latency to your location/internet.
+5. Give the miner/stratum to stabilize your hashrate(~30m-1h).
+
