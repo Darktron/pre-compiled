@@ -1,7 +1,7 @@
 # Pre-compiled CCMiner for Termux:
 This is a WIP repo for pre-compiled ccminer binaries with latest termux(v0.118.0) and latest clang(v17.0.4).
 
-`**This is for ARM Cortex-A73 & Cortex-A53**`
+**`This is for ARM Cortex-A73 & Cortex-A53`**
 
 # Installation:
 1. Install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
