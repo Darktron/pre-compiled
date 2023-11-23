@@ -45,6 +45,6 @@ CTRL + c
 - If Termux can't complete update & upgrade please clear app cache and data.
 - Disable battery manager, battery optimization for Termux app.
 - If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
+- Alternatively you can pull down the notification drawer and expand Termux notification to `Acquire wakelock` this will enable you to mine with the screen off **(NOTE! not all devices obey this rule is a hit or miss)**
 - Use a pool with low latency to your location/internet.
 - Give the miner/stratum time to stabilize hashrate(~30m-1h).
-
