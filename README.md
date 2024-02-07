@@ -3,7 +3,7 @@ This is a WIP repo for pre-compiled ccminer binaries with latest termux(v0.118.0
 
 # **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
 
-# **`This is for ARM Cortex-A55`**
+# **`This is for ARM Cortex-A72`**
 
 # Installation:
 1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
@@ -19,9 +19,9 @@ pkg install libjansson wget nano -y
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a55/ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a55/config.json
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/a55/start.sh
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a72/ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a72/config.json
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/a72/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
