@@ -13,8 +13,8 @@ https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.11
 2. Get Termux ready:
 - Type `y` then enter key in any prompts!
 ```
-pkg update -y && pkg upgrade -y
-pkg install libjansson wget nano -y
+yes | pkg update -y && pkg upgrade
+yes | pkg install libjansson wget nano
 ```
 3. Download ccminer, config, start:
 ```
