@@ -3,7 +3,9 @@ This is a WIP repo for pre-compiled ccminer binaries with latest termux(v0.118.0
 
 # **`Disclaimer: I accept no warranties or liabilities on this repo. Do it at your own risk!!!`**
 
-# **`This is for ARM Cortex-A73 & Cortex-A53`**
+# **`This is for any ARMv8 device`**
+
+# **`If Termux apk does not install is done purposely this provided apk will only work on arm 64-bit operating system which in turn requires arm 64-bit hardware this is to avoid lost of time for users and my self. (Mining on 32-bit devices is not profitable)`**
 
 # Installation:
 1. Download & install latest arm64-v8a [Termux](https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk):
@@ -19,9 +21,9 @@ yes | pkg install libjansson wget nano
 3. Download ccminer, config, start:
 ```
 mkdir ccminer && cd ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/main/ccminer
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/main/config.json
-wget https://raw.githubusercontent.com/Darktron/pre-compiled/main/start.sh
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/ccminer
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/config.json
+wget https://raw.githubusercontent.com/Darktron/pre-compiled/generic/start.sh
 chmod +x ccminer start.sh
 ```
 # Usage:
@@ -44,6 +46,7 @@ CTRL + c
 # Tips & Tricks:
 - If Termux can't complete update & upgrade please clear app cache and data.
 - Disable battery manager, battery optimization for Termux app.
+- If you have a "protect battery" option to stop charge at 85% or similar enable it to help preserve battery health.
 - If you long press anywhere within Termux then click `More` there is an option to `Keep screen on`.
 - Alternatively you can pull down the notification drawer and expand Termux notification to `Acquire wakelock` this will enable you to mine with the screen off **(NOTE! not all devices obey this rule is a hit or miss)**
 - Use a pool with low latency to your location/internet.
